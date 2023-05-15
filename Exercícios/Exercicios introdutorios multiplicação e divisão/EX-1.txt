@@ -14,6 +14,10 @@ Q = 1011
 0001 1111   0   A=A-M		
 0000 1111   1	deslocamento	n=0
 
+
+
+
+
 7 x 9
 0111 1001
 
@@ -29,9 +33,6 @@ Q = 1001
 0000 1111   0	deslocamento	n=1
 1001 1111   0	A=A-M
 0100 1111   1	deslocamento	n=0	
-
-
-
 
 
 
@@ -64,7 +65,22 @@ Q = 01001 dividendo
 
 8 / 5
 
+M = 00101
+Q = 01000
+n = 5
 
+A Q
+0000 01000
+0000 10000      Deslocamento
+11011 10000	A-M
+00000 10000	A+M Q0=0 n=4
+00001 00000	Deslocamento
+11100 00000	A+M Q0=0 n=3
+00010 00000	Deslocamento A-M
+11101 00000	A+M Q0=0 n=2
+00010 00000	Deslocamento
+00100 00000	A+M Q0=0 n=0
+1,10011 10011	
 
 
 
