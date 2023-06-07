@@ -1,0 +1,25 @@
+a) 9dec + 4dec
+1001+ 0100 = 1101
+
+b) 9dec - 4dec
+trans 4 em -4
+0100 -> 1100
+1001 + 1100 = 0101
+
+c) -9dec +7dec
+7 - 9 
+transformar 9 em -9 
+1001 -> 0111
+0111 + 0111 =  1110
+que fazendo o complemento de 2 
+0010
+
+d) -9dec -7dec
+transformar 7 em -7
+0111 -> 1001
+0111 + 1001 = 1000
+que fazendo o complemento de 2
+1000
+
+
+! se o valor final der em negativo, para obter o decimal deve fazer o complemento de 2

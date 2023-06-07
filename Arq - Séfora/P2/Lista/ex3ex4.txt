@@ -1,0 +1,10 @@
+3) Explique os passos para somar dois números em ponto flutuante.
+1- Verificar existência de zero
+2- Alinhar a mantissa, deixaar os expoentes iguais
+3- Somar e subtrair a mantissa
+4- Normalizar o resultado, deslocar os digitos da mantisa até que o mais significativo seja =! de zero
+
+
+4) Explique o conceito de overflow na soma de inteiros.
+Quando o carry ultrapassa a quantidade de 0 e 1 dos valores, ele será ignorado, e para casos com sinais opostos
+ele dará o sinal do resultado 1 = - e 0 = +

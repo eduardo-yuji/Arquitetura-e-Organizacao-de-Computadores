@@ -1,0 +1,81 @@
+a) -3 x -5
+ 
+0,0 OU 1,1 desloca ->
+0,1        A + M e desloca ->
+1,0        A - M e desloca ->
+
+M X Q 
+1101 1011 
+
+3 = 0011
+    1100
++      1  = 1101   (Complemento de 2)
+
+A      Q       Q-1
+0000  1011      0     =!
+0011  1011      0     A - M  
+0001  1101      1    =  desloca
+0000  1110      1   =!
+1101  1110      1   A + M
+0110  1111      0  desloca
+
+b) 7 x 9
+M X Q 
+0111 x 1001 
+
+para cada 1 A + M e desloca ->
+          0 só desloca ->
+A       Q
+0000    1001    soma
+0111    1001 desloca
+0011    1100   desloca
+0001    1110 desloca
+0000    1111   soma 
+0111    1111   desloca
+0011    1111
+
+
+c)  9 / 3
+Q/M 
+1001/0011
+
+desloca <- 
+A = A + M 
+se o sinal de A ficou = Q0 = 1
+                      =! Q0 =0 
+                         e A volta a ser o que era 
+
+
+A       Q
+0000    1001  <- desloca
+0001    0010  A - M    1 - 3 = -2
+0010    0010   <- desloca
+0010    0100   A - M 2 -3 = -1
+0100    1000 <- desloca
+0001    1001  A - M = 4- 3 =1
+0011    0010 <- desloca 
+0000    0011   A - M = 3 - 3 
+
+
+d) 8 / 5
+
+Q/M 
+1000/0101
+
+desloca <- 
+A = A + M 
+se o sinal de A ficou = Q0 = 1
+                      =! Q0 =0 
+                         e A volta a ser o que era 
+
+
+A       Q
+0000    1000  <- desloca
+0001    0000  A - M    1 - 5 = -4
+0001    0000  <- desloca
+0010    0000   A - M 3 - 5 = -2
+0010    0000 <- desloca
+0100    0000  A - M = 4 - 5 = -1
+0100    0000 <- desloca 
+1000    0000   A - M = 8 - 5 = 3 
+0011    0001

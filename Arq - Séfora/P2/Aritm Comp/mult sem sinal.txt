@@ -1,0 +1,38 @@
+a) 3 x 3
+ M	Q	
+11 x 11 
+
+A     Q
+00    11
+11    11   -> SOMA      A + M = 00 + 11 
+01    11   -> DESLOCA
+100   11   -> SOMA     A + M = 01 + 11
+010   01   -> DESLOCA
+
+b) 4 x 2
+M	Q	
+100 x 010
+
+A     Q
+000   010
+000   001  -> DESLOCA 
+100   001  -> SOMA A + M = 000 + 100
+010   000  -> DESLOCA
+001   000  -> DESLOCA
+
+
+c) 8 x 4
+M	   Q	
+1000 x 0100
+
+A       Q
+0000   0100
+0000   0010  -> DESLOCA 
+0000   0001  -> DESLOCA
+1000   0001  -> SOMA A + M = 0000 + 1000
+0100   0000   -> DESLOCA
+0010   0000   -> DESLOCA
+
+
+
+

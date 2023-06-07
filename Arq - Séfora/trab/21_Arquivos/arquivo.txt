@@ -1,0 +1,2 @@
+Texto que sera escrito no arquivo
+sefora

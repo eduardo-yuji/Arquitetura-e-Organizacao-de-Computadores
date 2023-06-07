@@ -1,0 +1,18 @@
+Sobre o método de clock monociclo, selecione apenas as alternativas corretas: 
+
+
+a.
+O ciclo de clock é grande o suficiente para agregar todas as etapas de execução de qualquer instrução da CPU.
+O método é prejudicado com um conjunto de instruções,  ao qual  as etapas de execução, varia entre as mesmas.
+
+Quais são as principais desvantagens do método clock monociclo em relação a abordagem mult ciclo?
+- Não é possível aplicar Pipeline
+- É mais lento comparado ao multiciclo
+
+Cite exemplos de instruções que utilizam a unidade extensora de sinais, considerando o processador MIPS do mips, e justifique essa utilização pelas instruções.
+Loadsotre, jump, sll e as branchs. Pois elas extendem os 16 bits para os 32 da arquitetura
+
+
+
+Qual instrução da ULA as instruções LW e SW utilizam? Por que?
+Soma, pois ela soma o conteúdo do registrador com o offset, gerando um endereço final.

@@ -1,0 +1,6 @@
+add $t0, $t1, $t2
+sub $t0, $t1, $t2
+addi $t0, $t1, $t2
+sft $t0, $t1, $t2
+beq  $t0, $t1, 2
+blt  $t0, $t1, 2

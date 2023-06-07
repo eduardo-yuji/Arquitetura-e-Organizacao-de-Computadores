@@ -1,0 +1,37 @@
+#file: ex1_aritm.s
+#author: Sefora Davanso
+#date: 24/08/22
+#brief:Faça o registrador $t0 e $t1 receberem os valores 15, e 30 respectivamente.
+#E então faça um programa para somar $t0 e $1, jogando o resultado da soma em $t3.
+
+.data
+
+#definindo strings
+ string1: .asciiz "Este programa soma 15 e 30 "
+
+
+.text
+ main:
+ 
+#para printar a string 1
+	li, $v0, 4
+	la $a0, string1
+	syscall
+
+# $t0 recebe 15 e t1 30
+# estou fazendo a soma 15 + 0 e salvando em t0
+	addi $t0, $zero, 15
+	addi $t1, $zero, 30
+
+#fazendo a soma dos valores
+	add $t3, $t0, $t1
+
+#printando 
+	li $v0, 1
+	move $a0, $t3
+	syscall
+	
+sair: 
+	  li, $v0, 10
+	  syscall
+

@@ -1,0 +1,11 @@
+add $t0, $t1, $t2
+sub $t0, $t1, $t2
+and  $t0, $t1, $t2
+or  $t0, $t1, $t2
+xor  $t0, $t1, $t2
+slt  $t0, $t1, $t2
+lw  $t0, $t1, $t2
+sw  $t0, $t1, $t2
+
+beq  $t0, $t1, 2
+blt  $t0, $t1, 2

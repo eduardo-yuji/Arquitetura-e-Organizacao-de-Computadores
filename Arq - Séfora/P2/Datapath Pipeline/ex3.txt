@@ -1,0 +1,15 @@
+1 add $t0,$zero,$t1
+2 lw $s2,0($sp)
+3 addi $t4, $s2, 10
+4 sll $s0,$s1, 2 
+      
+         fetc         decode            exec      mem       WB
+1         1
+2         2               1
+3         3               2              1
+4         4               3              2                   1
+5         4               3         (bolha)        2           
+6                         4              3                   2
+7                                        4         3  
+8                                                  4         3
+9                                                            4
