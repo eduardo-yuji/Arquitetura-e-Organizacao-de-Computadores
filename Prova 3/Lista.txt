@@ -1,0 +1,91 @@
+1) Quais as diferenças existentes entre as arquiteturas Cisc e Risc? Qual tipo de arquitetura se enquadra melhor no projeto do mips na sua opinião?
+    Risc:
+        - Mais simples
+        - Previsivel
+        - lw / sw
+        - Poucos formato de instrução
+        - Código maior / maior consumo de memória
+        - Copiladores mais complexos
+        - Pipeline mais viável
+        - + Registradores
+    Cisc: 
+        - Mais complexo
+        - Menos Registradores
+        - Modos de endereçamento complexa
+        - Muitos formatos de instrução
+        - Código menor
+        - Complexidade hardware
+        - Pipeline complexa
+2) Sobre hierarquia de memória responda:
+
+       a) Quais os tipos de memória existentes em um computador convencional?
+
+       b) Como o hardware e os sistemas operacionais podem "orquestrar" essas memória? Cite técnicas utilizadas para isso.
+
+3)  O que é a memória cache e para que ela serve? Quais os principais desafios envolvendo memória cache?
+
+4) Cite as principais políticas de escrita na cache e explique o seu funcionamento
+
+5) Quais políticas são utilizadas para realizar substituição de dados na cache?
+
+6) Explique o mapeamento de dados na cache, quais as principais políticas?
+
+7) Explique as diferenças entre as Drams e as Srams
+
+8) O que são ROM, EPROM, EEPROM?
+
+9) Por que as SRAM são utilizadas para a construção de memórias cache? E por que as DRAM são utilizadas para a construção de memórias
+principais?
+
+10) Qual é a diferença entre as tecnologias de memórias DRAM DDR, DDR2, DDR3, DDR4..etc?
+
+11) O que é uma memória secundária? Cite exemplos. Agora explique cada um.
+
+ Arquiteturas parallelas e não covencionais
+(Willian Sttallings Arquitetura e organização de computadores: projeto para o desempenho. 8. ed. Prentice Hall, 2009.)
+
+12) Sobre arquiteturas parallelas, explique o que são:
+
+    a) Bit Level Parallelism
+        Aumento do tamanho de palavra do processador, isso reduz o número de instruções que ele deve executar para poder realizar uma operação na qual a palavra é maior que a de sua arquittura
+        Esse paralelismo se obtem por barramentos
+    b) Instruction Level Parallelism
+        Execução paralela ou simultanea de uma sequencia de instruções de um programa. Muitas operações são executadas em um único ciclo, quando são executadas simultaneamente ou por espaços entre elas que permitem executalas
+        A arquitetura agrupa essas instruções o que permite que a execução da instrução seja dividida em segmentos
+        Pipeline
+    c) Data Level Parallelism
+        Distribuição dos dados com o bojetivo de aumentar a taxa de transferencia operando em multiplos elementos de dados simultaneamente
+        Acessa varios dados ao mesmo tempo e executalas em uma unica instrução
+    d) Task Level Parallelism
+        Um problema pode ser quebrado em tarefas separadas e resolvidos (processados) por diferentes processos
+        Processadores multithreads
+
+13) Explique o que são:
+
+    a) Processadores Escalares
+        Processadores que processam  apenas um dado de cada vez (no maximo uma instrução e uma operação por ciclo de clock)
+    b) processadores Superescalares
+        Aplicam o paralelismo de instrução para executar a instrução em mais de um ciclo de clock, executar as instruções independentemente e em pipelines diferentes
+        Executa varias etapas de instruções em um unico ciclo
+    c) Processadores Pipelined
+        Processadores que aumentam a execução tarefas simultaneamente e a taxa de instruções iniciadas e terminadas por unidade de tempo
+    d) Processadores Superpipelined
+        Mais de uma etapa ao mesmo ciclo clock
+
+    e) Processadores VLIW
+        Em uma unica instrução grand ele consegue dar fat e divide em instruções pequenas que são buscadas ao mesmo tempo
+        
+14) Quais são as vantagens e desvantagens do paralelismo em nível de instrução?
+    Paralelismo em nivel de instrução: melhora desempenho mas processador mais complexo
+
+15) O que são processadores VLIW e quais sua diferença para super escalar?
+
+16) Explique as arquiteturas:
+
+    a) Multithreading
+        Varios nucleos rodando simultaneamente
+    b) Superthreading
+        Mesma que multithreads mas com facil chaveamento 
+    c) Simultaneous Multithreading ou Hyperthreading
+        
+    d) Múltiplos Cores
