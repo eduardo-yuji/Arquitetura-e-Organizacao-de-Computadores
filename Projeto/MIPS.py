@@ -295,7 +295,6 @@ if __name__ == '__main__':
 
     # Contador que indica o passo que a execução está
     count = 0
-    print(" Quantidade de iterações:", str(count))
     print("\n\n")
     while pc[0] <= quantidadeInstrucoes:
         passo = 'Iteração: ' + str(count)
