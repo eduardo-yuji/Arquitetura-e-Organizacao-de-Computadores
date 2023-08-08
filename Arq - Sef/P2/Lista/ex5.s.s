@@ -15,7 +15,7 @@ main:
 
 #para printar a string
 	li $v0, 4
-	la $a0, string 
+	la $a0, string
 	syscall
 
 #recebendo do teclado
@@ -31,7 +31,7 @@ main:
 #printando a mensagem
     la $a0, msg
     li $v0, 4
-    syscall   
+    syscall
     
 #printando o inteiro    
     move $a0, $t0
