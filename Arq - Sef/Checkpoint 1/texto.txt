@@ -1,3 +1,0 @@
-add    $s1 , $s2 , $s3
-addi   $s1 , 100
-sefora
